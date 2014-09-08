@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+$text-color: #666666;
+
+$border-radius-base: 0px;
+
+$font-family-sans-serif:                  'Helvetica Neue', Helvetica, 'Myriad Pro', sans-serif;
+
+
+$headings-font-family: 'Helvetica Neue', Sans Serif;
+$headings-color: #666666;
+
+$navbar-default-bg: white;
+$navbar-margin-bottom: -20px;
+
+$navbar-border-radius: 0%;
+
+$btn-font-weight: bold;
+
+$btn-success-bg: #F29400;
+
+$btn-warning-bg: #175BA2;
+
+$btn-info-bg: #15AFE1;
+
+$jumbotron-bg: white;
+$jumbotron-color: black;
+$jumbotron-padding: 15px;
+$jumbotron-heading-color: #ffffff;
+
+@import 'bootstrap';
+
+.navbar  {
+    z-index: 1;
+ }
+.navbar-header {
+    padding: 10px;
+ }
+
+ .navbar-right {
+    padding: 5px;
+    margin: 10px;
+ }
+
+.navbar-brand {
+	float:none;
+}
+
+.background { 
+  background: url(milky_way.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.wrapper { 
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron {
+  position:absolute;
+  width:50%;
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+  font-family: 'Helvetica Neue', sans-serif;
+  left: 27.5%;
+}
+
+
+
+
+
