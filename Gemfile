@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.1'
 
 gem 'rails', '4.1.0'
 gem 'sass-rails', '~> 4.0.3'
@@ -8,8 +9,10 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
+gem 'google-analytics-rails'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',  
+gem 'spring',        group: :development
+
 group :development, :test do
      gem 'sqlite3'
 end
